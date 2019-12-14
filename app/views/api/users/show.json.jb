@@ -1,0 +1,8 @@
+{
+  user_id: @user.id,
+  email: @user.email,
+  skills: @user.skills,
+  equipments: @user.equipments,
+  skill_experiences: @user.skill_experiences,
+  skill_subcategories: @user.skill_subcategories
+}
