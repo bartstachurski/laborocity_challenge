@@ -46,10 +46,33 @@
 #   }
 # ])
 
-Equipment.create([
-  {name: "Steel Toed Boots"},
-  {name: "Hard Hat"},
-  {name: "Safety Vest"},
-  {name: "Eye Protection"},
-  {name: "Gloves"}
+# Equipment.create([
+#   {name: "Steel Toed Boots"},
+#   {name: "Hard Hat"},
+#   {name: "Safety Vest"},
+#   {name: "Eye Protection"},
+#   {name: "Gloves"}
+# ])
+
+SkillEquipment.create([
+  {
+    skill_id: 3,
+    equipment_id: 1
+  },
+  {
+    skill_id: 3,
+    equipment_id: 2
+  },
+  {
+    skill_id: 3,
+    equipment_id: 3
+  },
+  {
+    skill_id: 3,
+    equipment_id: 4
+  },
+  {
+    skill_id: 3,
+    equipment_id: 5
+  }
 ])

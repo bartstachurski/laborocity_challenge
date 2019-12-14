@@ -1,0 +1,2 @@
+class SkillEquipment < ApplicationRecord
+end
