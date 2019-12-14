@@ -18,17 +18,30 @@
 
 # UserSkill.create(user_id: 1, skill_id: 3)
 
-SkillSubcategory.create([
+# SkillSubcategory.create([
+#   {
+#     name: 'Construction',
+#     skill_id: 3
+#   },
+#   {
+#     name: 'Restoration',
+#     skill_id: 3
+#   },
+#   {
+#     name: 'Demolition',
+#     skill_id: 3
+#   }
+# ])
+
+SkillExperience.create([
   {
-    name: 'Construction',
-    skill_id: 3
+    skill_subcategory_id: 1,
+    user_id: 1,
+    years_experience: 10
   },
   {
-    name: 'Restoration',
-    skill_id: 3
-  },
-  {
-    name: 'Demolition',
-    skill_id: 3
+    skill_subcategory_id: 2,
+    user_id: 1,
+    years_experience: 5
   }
 ])
