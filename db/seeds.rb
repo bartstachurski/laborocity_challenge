@@ -33,7 +33,7 @@
 #   }
 # ])
 
-# SkillExperience.create!([
+# SkillExperience.create([
 #   {
 #     skill_subcategory_id: 1,
 #     user_id: 1,
@@ -45,3 +45,11 @@
 #     years_experience: 5
 #   }
 # ])
+
+Equipment.create([
+  {name: "Steel Toed Boots"},
+  {name: "Hard Hat"},
+  {name: "Safety Vest"},
+  {name: "Eye Protection"},
+  {name: "Gloves"}
+])
