@@ -33,15 +33,15 @@
 #   }
 # ])
 
-SkillExperience.create([
-  {
-    skill_subcategory_id: 1,
-    user_id: 1,
-    years_experience: 10
-  },
-  {
-    skill_subcategory_id: 2,
-    user_id: 1,
-    years_experience: 5
-  }
-])
+# SkillExperience.create!([
+#   {
+#     skill_subcategory_id: 1,
+#     user_id: 1,
+#     years_experience: 10
+#   },
+#   {
+#     skill_subcategory_id: 2,
+#     user_id: 1,
+#     years_experience: 5
+#   }
+# ])
