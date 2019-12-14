@@ -16,4 +16,19 @@
 #   {name: 'iRelaunch'}
 # ])
 
-UserSkill.create(user_id: 1, skill_id: 3)
+# UserSkill.create(user_id: 1, skill_id: 3)
+
+SkillSubcategory.create([
+  {
+    name: 'Construction',
+    skill_id: 3
+  },
+  {
+    name: 'Restoration',
+    skill_id: 3
+  },
+  {
+    name: 'Demolition',
+    skill_id: 3
+  }
+])
