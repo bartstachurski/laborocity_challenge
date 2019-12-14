@@ -8,10 +8,12 @@
 
 # User.create(email: 'bart.stachurski@gmail.com')
 
-Skill.create([
-  {name: 'Warehouse'},
-  {name: 'Hospitality'},
-  {name: 'General Labor'},
-  {name: 'Office'},
-  {name: 'iRelaunch'}
-])
+# Skill.create([
+#   {name: 'Warehouse'},
+#   {name: 'Hospitality'},
+#   {name: 'General Labor'},
+#   {name: 'Office'},
+#   {name: 'iRelaunch'}
+# ])
+
+UserSkill.create(user_id: 1, skill_id: 3)
