@@ -1,5 +1,5 @@
 {
-  user_id: @user.id,
+  id: @user.id,
   email: @user.email,
   skills: @user.skills,
   equipments: @user.equipments,

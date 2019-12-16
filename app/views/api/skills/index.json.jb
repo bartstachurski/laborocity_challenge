@@ -2,6 +2,7 @@
   {
     id: skill.id,
     name: skill.name,
-    skill_subcategories: skill.skill_subcategories
+    skill_subcategories: skill.skill_subcategories,
+    equipments: skill.equipments
   }
 end

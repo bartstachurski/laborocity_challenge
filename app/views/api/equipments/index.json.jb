@@ -1,0 +1,6 @@
+@equipments.map do |equipment| 
+  {
+    id: equipment.id,
+    name: equipment.name
+  }
+end
